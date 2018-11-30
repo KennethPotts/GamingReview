@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+/*
+   New Perspectives on HTML and CSS
+   Project #1
+   Roadways Style Sheet
+
+   Author: Kenneth Pots
+   Date:10/9/2018
+
+   Filename:  sbstyles.css
+   Supporting Files: 
+*/
+
+/* Default page element stylers */
+body {
+	background-color: DodgerBlue;
+}
+#pic1 {
+	padding: 10px;
+}
+#pic2 {
+	padding: 10px;
+}
+#string :hover {
+	color: red;
+}
+#siteNav :hover {
+	color: blue;
+}
+
+/* Navigation Styles */
+
+nav{
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);	
+	border-style: solid;
+	border-radius: 25px;
+}
+
+/* Header Styles */
+
+/* Section Styles */
+h2 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    border-style: solid;
+    margin-left: 35px;
+    letter-spacing:-1px;
+}
+
+P B {color: red}
+
+
+
+/* Layout */
+
+body {
+	background-image: url("flow.jpg");
+}
+
+div#left{
+	float: left;
+	width: 35%;
+	overflow: auto;
+	height: 1000px;
+	position: relative;
+}
+
+div#right{
+	float: right;
+	width: 60%;
+	overflow: auto;
+	height: 1000px;
+	position: relative;
+}
+
+section {
+    border-radius: 25px;
+}
+
+p.clear{
+	clear: left;
+}
+p.block{
+	display: block;
+}
+
+article#left{
+	display: inline-block;
+	width: 46.45%;
+	overflow: auto;
+	height: 500px;
+	position: relative;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+	border-radius: 25px;
+	border-style: solid;
+}
+
+section#right{
+	display: inline-block;
+	width: 46.45%;
+	overflow: auto;
+	height: 500px;
+	position: relative;
+	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+	border-radius: 25px;
+
+}
+
+section#bottom{
+	width: 90%;
+}
+
+.flex-container {
+  	background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  	border-radius: 25px;
+  	display: flex;
+  	background-color: DodgerBlue;
+	width: 100%;	
+}
+
+.flex-container > div{
+  	font-size: 30px;
+	width: 10%;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    background-color: #FF6EFF;
+}
+
+div#table {
+	height: 500px;
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+footer#footer {
+	height: 350px;
+	border-radius: 20px;
+	border-style: solid;
+	background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}
