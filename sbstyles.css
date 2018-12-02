@@ -64,7 +64,6 @@ body {
 div#left{
 	float: left;
 	width: 35%;
-	overflow: auto;
 	height: 1000px;
 	position: relative;
 }
